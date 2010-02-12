@@ -1,5 +1,5 @@
 #summary How to setup Spring Crypto Utils.
-#labels Phase-Deploy
+#labels Phase-Deploy,Featured
 
 = Non maven users =
 
