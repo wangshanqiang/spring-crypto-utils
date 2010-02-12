@@ -10,8 +10,10 @@ Configure the `crypt` namespace in a Spring context xml configuration file like 
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:crypt="http://code.google.com/p/spring-crypto-utils/schema/crypt"
        xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://code.google.com/p/spring-crypto-utils/schema/crypt http://code.google.com/p/spring-crypto-utils/schema/crypt.xsd">
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.google.com/p/spring-crypto-utils/schema/crypt
+        http://code.google.com/p/spring-crypto-utils/schema/crypt.xsd">
 
 </beans>
 }}}
