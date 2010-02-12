@@ -1,0 +1,16 @@
+#summary How to setup Spring Crypto Utils.
+
+= Non maven users =
+
+Download the latest jar from the download page and put the file in the classpath of your application.
+
+
+= Maven users =
+
+We don't have a maven repository yet but it's very easy to download the latest release sources and install the artifact in your local maven repository:
+
+{{{
+$ svn co http://spring-crypto-utils.googlecode.com/svn/tags/spring-crypto-utils-0.9.1
+$ cd spring-crypto-utils-0.9.1
+$ mvn clean install
+}}}
