@@ -25,7 +25,7 @@ public class MyKeyGenerator {
 Because you don't usually work directly with byte arrays, but rather with a base64 encoded version of such data, there also is a base64 version of the key generator:
 
 {{{
-    <crypt:b64SymmetricKeyGenerator id="generator" algorithm="DESede" chunkOutput="false"/>
+    <crypt:b64SymmetricKeyGenerator id="generator" algorithm="DESede"/>
 }}}
 
 Here is an usage example:
@@ -125,6 +125,82 @@ public class MyBase64Encrypter {
     public void doSomething() {
         String b64encryptedMessage = encrypter.encrypt(key, iv, "a secret message");
         String decryptedMessage = decrypter.encrypt(key, iv, b64encryptedMessage);
+    }
+}
+}}}
+
+= Message Encryption With Static Keys =
+
+If the encryption key is static, you can configure it in xml:
+
+{{{
+<crypt:symmetricCiphererWithStaticKey
+        id="encrypter"
+        keyAlgorithm="DESede" cipherAlgorithm="DESede/CBC/PKCS5Padding"
+        key="Rs3xEA16I52XJpsWwkw4GrB8l6FiVGK/"
+        initializationVector="AQIDBAUGAQI="
+        mode="ENCRYPT"/>
+
+<crypt:symmetricCiphererWithStaticKey
+        id="decrypter"
+        keyAlgorithm="DESede" cipherAlgorithm="DESede/CBC/PKCS5Padding"
+        key="Rs3xEA16I52XJpsWwkw4GrB8l6FiVGK/"
+        initializationVector="AQIDBAUGAQI="
+        mode="DECRYPT"/>
+}}}
+
+The initialization vector and key strings must be base64 encoded. An example implementation of the above might be:
+
+{{{
+public class MyCiphererWithStaticKey {
+
+    @Autowired
+    private CiphererWithStaticKey encrypter;
+
+    @Autowired
+    private CiphererWithStaticKey decrypter;
+
+    public void doSomething() {
+        final byte[] message = new byte[] {1, 3};
+        byte[] encryptedMessage = encrypter.encrypt(message);
+        byte[] decryptedMessage = decrypter.encrypt(encryptedMessage);
+    }
+}
+}}}
+
+The base64 version of the above is as follows:
+
+{{{
+<crypt:b64SymmetricCiphererWithStaticKey
+        id="encrypter" keyAlgorithm="DESede"
+        cipherAlgorithm="DESede/CBC/PKCS5Padding"
+        key="Rs3xEA16I52XJpsWwkw4GrB8l6FiVGK/"
+        initializationVector="AQIDBAUGAQI="
+        mode="ENCRYPT"/>
+
+<crypt:b64SymmetricCiphererWithStaticKey
+        id="decrypter" keyAlgorithm="DESede"
+        cipherAlgorithm="DESede/CBC/PKCS5Padding"
+        key="Rs3xEA16I52XJpsWwkw4GrB8l6FiVGK/"
+        initializationVector="AQIDBAUGAQI="
+        mode="DECRYPT"/>
+}}}
+
+An example implementation might be:
+
+{{{
+public class MyBase64EncodedCiphererWithStaticKey {
+
+    @Autowired
+    private Base64EncodedCiphererWithStaticKey encrypter;
+
+    @Autowired
+    private Base64EncodedCiphererWithStaticKey decrypter;
+
+    public void testCipher() {
+        final String message = "this is a top-secret message";
+        String b64encryptedMessage = encrypter.encrypt(message);
+        String decryptedMessage = decrypter.encrypt(b64encryptedMessage);
     }
 }
 }}}
