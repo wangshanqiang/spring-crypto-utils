@@ -88,8 +88,8 @@ public class MyBase64BusinessVerifier {
     @Autowired
     private Base64EncodedVerifier verifier;
 
-    public void myBusinessMethod(String message, String signature) {
-        if (verifier.verify(message, signature) {
+    public void myBusinessMethod(String message, String b64signature) {
+        if (verifier.verify(message, b64signature) {
             proceedWithPayment(message);
         } else {
             callTheCops("someone is trying to steal our money!");
