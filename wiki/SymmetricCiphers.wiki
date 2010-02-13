@@ -1,4 +1,7 @@
 #summary Configuration of symmetric ciphers.
+#sidebar TableOfContents
+
+<wiki:toc max_depth="1" />
 
 = Key Generator =
 

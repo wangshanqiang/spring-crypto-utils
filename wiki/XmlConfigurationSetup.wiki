@@ -1,8 +1,10 @@
 #summary Configuration using the Spring context.
 #labels Phase-Deploy
+#sidebar TableOfContents
+
+<wiki:toc max_depth="1" />
 
 Configure the `crypt` namespace in a Spring context xml configuration file like this:
-
 
 {{{
 <?xml version="1.0" encoding="UTF-8"?>

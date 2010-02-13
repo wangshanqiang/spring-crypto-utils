@@ -1,5 +1,8 @@
 #summary Cryptographic keys configuration.
 #labels Phase-Deploy
+#sidebar TableOfContents
+
+<wiki:toc max_depth="1" />
 
 = Keys =
 
