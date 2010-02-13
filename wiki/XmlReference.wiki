@@ -16,6 +16,6 @@
     * `<crypt:b64Verifier/>`
   * DigitalSignaturesByKeyId: 
     * `<crypt:signerWithChooserByPrivateKeyId/>` 
-    * `<crypt:verifierWithChooserByPrivateKeyId/>` 
+    * `<crypt:verifierWithChooserByPublicKeyId/>` 
     * `<crypt:b64SignerWithChooserByPrivateKeyId/>` 
     * `<crypt:b64VerifierWithChooserByPublicKeyId/>`

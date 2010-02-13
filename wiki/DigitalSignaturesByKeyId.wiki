@@ -68,7 +68,7 @@ public class MyBase64BusinessSigner {
         </entry>
     </util:map>
 
-    <crypt:verifierWithChooserByPrivateKeyId id="verifier" publicKeyMap-ref="publicKeyMap" algorithm="SHA1withRSA"/>
+    <crypt:verifierWithChooserByPublicKeyId id="verifier" publicKeyMap-ref="publicKeyMap" algorithm="SHA1withRSA"/>
 }}} 
 
 Again, `SHA1withRSA` is the default and can be omitted.
