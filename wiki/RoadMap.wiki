@@ -1,0 +1,15 @@
+#summary Project Roadmap.
+#labels Featured
+
+= Implemented =
+
+  * configuration of keystores, public and private keys, signers and verifiers, symmetric key encryption
+  * base64 versions for all of the above
+
+= To do =
+
+  * asymmetric encryption
+
+= Wish List =
+
+  * pkcs#7 signatures
