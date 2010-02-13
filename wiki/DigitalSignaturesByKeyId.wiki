@@ -1,4 +1,7 @@
 #summary Configuration of digital signature signers and verifiers that work with different keys which are mapped by a logical name
+#sidebar TableOfContents
+
+<wiki:toc max_depth="1" />
 
 = Signer =
 
