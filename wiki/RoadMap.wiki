@@ -1,5 +1,4 @@
 #summary Project Roadmap.
-#labels Featured
 
 = Implemented =
 

@@ -1,5 +1,5 @@
 #summary Configuration using the Spring context.
-#labels Featured,Phase-Deploy
+#labels Phase-Deploy
 
 Configure the `crypt` namespace in a Spring context xml configuration file like this:
 

@@ -1,5 +1,5 @@
 #summary Cryptographic keys configuration.
-#labels Phase-Deploy,Featured
+#labels Phase-Deploy
 
 = Keys =
 
