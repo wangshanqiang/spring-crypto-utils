@@ -1,4 +1,5 @@
 #summary Reference for the xml configuration.
+#sidebar TableOfContents
 
   * KeyStoreConfiguration: 
     * `<crypt:keystore/>` 
