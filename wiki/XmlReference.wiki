@@ -1,0 +1,6 @@
+#summary Reference for the xml configuration.
+
+  * KeyStoreConfiguration: `<crypt:keystore/>` `<crypt:b64Keystore/>` `<crypt:keystoreRegistry>`
+  * KeyConfiguration: `<crypt:privateKey/>` `<crypt:publicKey/>` `<crypt:privateKeyRegistryByAlias/>` `<crypt:publicKeyRegistryByAlias/>`
+  * SimpleDigitalSignatures: `<crypt:signer/>` `<crypt:b64Signer/>` `<crypt:verifier/>` `<crypt:b64Verifier>`
+  * DigitalSignaturesByKeyId: `<crypt:signerWithChooserByPrivateKeyId/>` `<crypt:b64SignerWithChooserByPrivateKeyId/>` `<crypt:verifierWithChooserByPrivateKeyId/>` `<crypt:b64VerifierWithChooserByPublicKeyId/>`
