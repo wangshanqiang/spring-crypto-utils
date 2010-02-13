@@ -8,5 +8,5 @@
   * [KeyStoreConfiguration Keystore Configuration]
   * [KeyConfiguration Key Configuration]
   * [SimpleDigitalSignatures Simple Digital Signatures]
-  * [DigitalSignaturesByKeyId Digital Signatures By Id]
+  * [DigitalSignaturesByKeyId Digital Signatures By Key Id]
   * [SymmetricCiphers Symmetric Ciphers]
