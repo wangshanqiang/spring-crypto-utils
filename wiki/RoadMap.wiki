@@ -3,12 +3,18 @@
 
 = Implemented =
 
-  * configuration of keystores, public and private keys, signers and verifiers, symmetric key encryption
+  * configuration of keystores 
+  * configuration of public and private keys
+  * selection at runtime of the keys to use
+  * configuration of signers and verifiers
+  * configuration of symmetric key cipherers
   * base64 versions for all of the above
 
 = To do =
 
   * asymmetric encryption
+  * complete the documentation of all features in the wiki
+  * complete the javadocs
 
 = Wish List =
 
