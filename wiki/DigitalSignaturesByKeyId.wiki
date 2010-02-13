@@ -1,5 +1,4 @@
 #summary Configuration of digital signature signers and verifiers that work with different keys which are mapped by a logical name
-#labels Featured
 
 = Signer =
 
@@ -113,4 +112,3 @@ public class MyBase64BusinessVerifier {
     }
 }
 }}}
-
