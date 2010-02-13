@@ -19,3 +19,5 @@ Configure the `crypt` namespace in a Spring context xml configuration file like 
 }}}
 
 This gets you full autocompletion support in an xsd aware editor such as Intellij Idea. 
+
+For a list of available xml elements please see the XmlReference.

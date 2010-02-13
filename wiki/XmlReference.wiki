@@ -19,3 +19,15 @@
     * `<crypt:verifierWithChooserByPublicKeyId/>` 
     * `<crypt:b64SignerWithChooserByPrivateKeyId/>` 
     * `<crypt:b64VerifierWithChooserByPublicKeyId/>`
+  * DigitalSignaturesByAlias: 
+    * `<crypt:signerWithChooserByAlias/>` 
+    * `<crypt:verifierWithChooserByAlias/>` 
+    * `<crypt:b64SignerWithChooserByAlias/>` 
+    * `<crypt:b64VerifierWithChooserByAlias/>`
+  * SymmetricCiphers:
+    * `<crypt:symmetricKeyGenerator/>`
+    * `<crypt:symmetricCipherer/>`
+    * `<crypt:symmetricCiphererWithStaticKey/>`
+    * `<crypt:b64SymmetricKeyGenerator/>`
+    * `<crypt:b64SymmetricCipherer/>`
+    * `<crypt:b64SymmetricCiphererWithStaticKey/>`
