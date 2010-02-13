@@ -13,6 +13,7 @@
 = To do =
 
   * asymmetric encryption
+  * message hashing (md5, sha1, etc)
   * complete the documentation of all features in the wiki
   * complete the javadocs
 
