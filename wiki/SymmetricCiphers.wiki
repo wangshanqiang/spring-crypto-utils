@@ -25,6 +25,8 @@ public class MyKeyGenerator {
 }
 }}}
 
+= Base64 Key Generator =
+
 Because you don't usually work directly with byte arrays, but rather with a base64 encoded version of such data, there also is a base64 version of the key generator:
 
 {{{
@@ -99,6 +101,8 @@ public class MyDecrypter {
 }
 }}}
 
+= Base64 Message Encryption =
+
 Because you don't usually work directly with byte arrays, but rather with a base64 encoded version of such data, there also is a base64 version of the cipherer:
 
 {{{
@@ -170,6 +174,8 @@ public class MyCiphererWithStaticKey {
     }
 }
 }}}
+
+= Base64 Message Encryption With Static Keys =
 
 The base64 version of the above is as follows:
 

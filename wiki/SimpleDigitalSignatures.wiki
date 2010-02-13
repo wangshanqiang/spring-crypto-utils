@@ -30,6 +30,8 @@ public class MyBusinessSigner {
 }
 }}}
 
+= Base64 Simple Signer =
+
 Because you don't usually work directly with byte arrays, but rather with a base64 encoded version of such data, there also is a base64 version of the signer.
 
 {{{
@@ -76,6 +78,8 @@ public class MyBusinessVerifier {
     }
 }
 }}}
+
+= Base64 Simple Verifier =
 
 The base64 equivalent of the above would be:
 
