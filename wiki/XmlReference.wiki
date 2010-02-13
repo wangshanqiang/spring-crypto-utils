@@ -3,7 +3,7 @@
   * KeyStoreConfiguration: 
     * `<crypt:keystore/>` 
     * `<crypt:b64Keystore/>` 
-    * `<crypt:keystoreRegistry>`
+    * `<crypt:keystoreRegistry/>`
   * KeyConfiguration: 
     * `<crypt:privateKey/>` 
     * `<crypt:publicKey/>` 
@@ -13,7 +13,7 @@
     * `<crypt:signer/>`
     * `<crypt:verifier/>`
     * `<crypt:b64Signer/>`
-    * `<crypt:b64Verifier>`
+    * `<crypt:b64Verifier/>`
   * DigitalSignaturesByKeyId: 
     * `<crypt:signerWithChooserByPrivateKeyId/>` 
     * `<crypt:verifierWithChooserByPrivateKeyId/>` 
