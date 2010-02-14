@@ -12,10 +12,7 @@
   * configuration of message digesters (md5, sha1, etc)
   * base64 versions for all of the above
   * javadoc for all classes
-
-= To do =
-
-  * complete the documentation of all features in the wiki
+  * complete documentation of all features in the wiki
 
 = Wish List =
 
