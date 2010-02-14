@@ -32,3 +32,10 @@
     * `<crypt:b64SymmetricKeyGenerator/>`
     * `<crypt:b64SymmetricCipherer/>`
     * `<crypt:b64SymmetricCiphererWithStaticKey/>`
+  * AsymmetricCiphers:
+    * `<crypt:asymmetricCipherer/>`
+    * `<crypt:asymmetricCiphererWithChooserByKeyId/>`
+    * `<crypt:b64AsymmetricCipherer/>`
+    * `<crypt:b64AsymmetricCiphererWithChooserByKeyId/>`
+  * MessageDigests
+    * `<crypt:digester/>`
