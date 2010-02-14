@@ -10,3 +10,4 @@
   * [SimpleDigitalSignatures Simple Digital Signatures]
   * [DigitalSignaturesByKeyId Digital Signatures By Key Id]
   * [SymmetricCiphers Symmetric Ciphers]
+  * [MessageDigests Message Digests]
