@@ -129,7 +129,7 @@ The base64 version of the above is as follows:
 {{{
     <crypt:b64AsymmetricCiphererWithChooserByKeyId id="encrypter" mode="ENCRYPT" keyMap-ref="keyMap"/>
 
-    <crypt:b64AsymmetricCiphererWithChooserByKeyId id="decrypter" mode="DECRYPT" keyMap-ref="keyMap"/
+    <crypt:b64AsymmetricCiphererWithChooserByKeyId id="decrypter" mode="DECRYPT" keyMap-ref="keyMap"/>
 }}}
 
 An example implementation might be:
