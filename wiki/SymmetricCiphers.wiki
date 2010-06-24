@@ -75,7 +75,7 @@ public class MyEncrypter {
 }
 }}}
 
-Decrypting a message is a done using the same interface as for encrypting. The only difference is that the underlying mode of operation is set in configuration to DECRYPT:
+Decrypting a message is done using the same interface as for encrypting. The only difference is that the underlying mode of operation is set in configuration to DECRYPT:
 
 {{{
     <crypt:symmetricCipherer id="decrypter" keyAlgorithm="DESede"
