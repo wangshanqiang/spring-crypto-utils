@@ -34,11 +34,11 @@ The following jars are also needed:
     * [http://commons.apache.org/logging/ commons-logging:commons-logging:jar:1.1.1]
     * [http://commons.apache.org/codec/ commons-codec:commons-codec:jar:1.4]
   * [http://www.springsource.org/download Spring]
-    * org.springframework:spring-context:jar:3.0.0.RELEASE
-    * org.springframework:spring-beans:jar:3.0.0.RELEASE
-    * org.springframework:spring-core:jar:3.0.0.RELEASE
-    * org.springframework:spring-expression:jar:3.0.0.RELEASE
-    * org.springframework:spring-asm:jar:3.0.0.RELEASE
+    * org.springframework:spring-context:jar:3.0.2.RELEASE
+    * org.springframework:spring-beans:jar:3.0.2.RELEASE
+    * org.springframework:spring-core:jar:3.0.2.RELEASE
+    * org.springframework:spring-expression:jar:3.0.2.RELEASE
+    * org.springframework:spring-asm:jar:3.0.2.RELEASE
 
 = Spring Version =
 
