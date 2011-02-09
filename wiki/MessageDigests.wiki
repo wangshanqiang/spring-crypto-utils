@@ -21,6 +21,8 @@ public class MyDigester {
 
     public void myBusinessMethod() {
         String digest = digester.digest("eat me!");
+        // OR, if you prefer...
+        byte[] digestBytes = digester.digest("eat me!".getBytes("UTF-8"));
     }
 }
 }}}
