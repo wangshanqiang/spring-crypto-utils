@@ -6,12 +6,14 @@
 
 = Maven users =
 
-We don't have a maven repository yet but it's very easy to download the latest release sources and install the artifact in your local maven repository:
+Add the following repository block to your pom:
 
 {{{
-$ svn co http://spring-crypto-utils.googlecode.com/svn/tags/spring-crypto-utils-0.9.2
-$ cd spring-crypto-utils-0.9.2
-$ mvn clean install
+<repository>
+    <id>spring-crypto-utils</id>
+    <name>Spring Cryptographic Utilities Maven Repository</name>
+    <url>http://spring-crypto-utils.googlecode.com/svn/repo</url>
+</repository>
 }}}
 
 Add the following dependency block to your pom:
@@ -20,7 +22,7 @@ Add the following dependency block to your pom:
 <dependency>
     <groupId>com.google.code.spring-crypto-utils</groupId>
     <artifactId>spring-crypto-utils</artifactId>
-    <version>0.9.2</version>
+    <version>0.9.3</version>
 </dependency>
 }}}
 
@@ -34,11 +36,11 @@ The following jars are also needed:
     * [http://commons.apache.org/logging/ commons-logging:commons-logging:jar:1.1.1]
     * [http://commons.apache.org/codec/ commons-codec:commons-codec:jar:1.4]
   * [http://www.springsource.org/download Spring]
-    * org.springframework:spring-context:jar:3.0.2.RELEASE
-    * org.springframework:spring-beans:jar:3.0.2.RELEASE
-    * org.springframework:spring-core:jar:3.0.2.RELEASE
-    * org.springframework:spring-expression:jar:3.0.2.RELEASE
-    * org.springframework:spring-asm:jar:3.0.2.RELEASE
+    * org.springframework:spring-context:jar:3.0.5.RELEASE
+    * org.springframework:spring-beans:jar:3.0.5.RELEASE
+    * org.springframework:spring-core:jar:3.0.5.RELEASE
+    * org.springframework:spring-expression:jar:3.0.5.RELEASE
+    * org.springframework:spring-asm:jar:3.0.5.RELEASE
 
 = Spring Version =
 
