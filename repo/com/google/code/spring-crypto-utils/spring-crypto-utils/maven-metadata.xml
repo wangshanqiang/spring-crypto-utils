@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google.code.spring-crypto-utils</groupId>
+  <artifactId>spring-crypto-utils</artifactId>
+  <versioning>
+    <versions>
+      <version>0.9.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20110209150209</lastUpdated>
+  </versioning>
+</metadata>
