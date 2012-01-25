@@ -4,6 +4,7 @@
   * KeyStoreConfiguration: 
     * `<crypt:keystore/>` 
     * `<crypt:b64Keystore/>` 
+    * `<crypt:defaultKeystore/>` (since 1.0.1)
     * `<crypt:keystoreRegistry/>`
   * KeyConfiguration: 
     * `<crypt:privateKey/>` 
