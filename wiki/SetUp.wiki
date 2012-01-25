@@ -22,7 +22,7 @@ Add the following dependency block to your pom:
 <dependency>
     <groupId>com.google.code.spring-crypto-utils</groupId>
     <artifactId>spring-crypto-utils</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 }}}
 
