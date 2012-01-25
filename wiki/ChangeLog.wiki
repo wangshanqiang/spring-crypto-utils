@@ -1,0 +1,11 @@
+#summary Project Changelog.
+
+= ChangeLog =
+
+== release 1.0.1 - 25 Jan 2012 ==
+
+  * issue 4: support default keystore location based on javax.net.ssl.keyStore
+
+== release 1.0.0 - 15 Sep 2011 ==
+
+  * first public stable release
