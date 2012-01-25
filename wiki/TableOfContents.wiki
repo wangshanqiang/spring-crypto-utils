@@ -12,3 +12,4 @@
   * [SymmetricCiphers Symmetric Ciphers]
   * [AsymmetricCiphers Asymmetric Ciphers]
   * [MessageDigests Message Digests]
+  * [ChangeLog Change Log]
