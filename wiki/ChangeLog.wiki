@@ -2,6 +2,10 @@
 
 = ChangeLog =
 
+== release 1.0.2 - in progress ==
+
+  * issue 5: non-existant alias name should throw an error
+
 == release 1.0.1 - 25 Jan 2012 ==
 
   * issue 4: added support for configuring a keystore using conventional java system properties `javax.net.ssl.keyStore` and `javax.net.ssl.keyStorePassword` throgh the `<crypt:defaultKeystore/>` configuration element. See _Default Keystore_ in KeyStoreConfiguration.
