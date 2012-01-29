@@ -40,3 +40,6 @@
     * `<crypt:b64AsymmetricCiphererWithChooserByKeyId/>`
   * MessageDigests
     * `<crypt:digester/>`
+  * MessageAuthenticationCodeDigests
+    * `<crypt:mac/>`
+    * `<crypt:b64Mac/>`
