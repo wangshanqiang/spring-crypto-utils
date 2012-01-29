@@ -41,5 +41,5 @@
   * MessageDigests
     * `<crypt:digester/>`
   * MessageAuthenticationCodeDigests
-    * `<crypt:mac/>`
-    * `<crypt:b64Mac/>`
+    * `<crypt:mac/>` (since 1.1.0)
+    * `<crypt:b64Mac/>` (since 1.1.0)
