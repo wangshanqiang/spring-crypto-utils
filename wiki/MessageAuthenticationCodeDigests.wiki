@@ -33,7 +33,7 @@ public class MyMacDigester {
 
 = Base64 Encoded MAC Digester =
 
-You shouldn't allow your raw bytes to wander to internets unarmed. This is why we also provide a base64 encoded version for message authentication codes.
+You shouldn't allow your raw bytes to wander the internets unarmed. This is why we also provide a base64 encoded version for message authentication codes.
 
 {{{
     <!-- this JCEKS keystore was created with:
