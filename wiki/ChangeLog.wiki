@@ -2,9 +2,11 @@
 
 = ChangeLog =
 
-== release 1.0.2 - in progress ==
+== release 1.1.0 - in progress ==
 
   * issue 5: non-existant alias name should throw an error
+  * issue 3: add crypt:secretKey element
+  * added support for mac (message authentication codes)
 
 == release 1.0.1 - 25 Jan 2012 ==
 
