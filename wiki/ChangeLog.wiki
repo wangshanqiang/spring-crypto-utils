@@ -2,7 +2,7 @@
 
 = ChangeLog =
 
-== release 1.1.0 - in progress ==
+== release 1.1.0 - 29 Jan 2012 ==
 
   * issue 5: non-existant alias name should throw an error
   * issue 3: add crypt:secretKey element
