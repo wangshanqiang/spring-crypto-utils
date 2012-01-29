@@ -8,7 +8,8 @@
     * `<crypt:keystoreRegistry/>`
   * KeyConfiguration: 
     * `<crypt:privateKey/>` 
-    * `<crypt:publicKey/>` 
+    * `<crypt:publicKey/>`
+    * `<crypt:secretKey/>` (since 1.1.0)
     * `<crypt:privateKeyRegistryByAlias/>`
     * `<crypt:publicKeyRegistryByAlias/>`
   * SimpleDigitalSignatures: 
