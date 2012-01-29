@@ -25,7 +25,8 @@ public class MyMacDigester {
     private Mac mac;
 
     public void myBusinessMethod() {
-        byte[] digest = mac.digest("eat me!".getBytes());
+        byte[] message = "eat me!".getBytes();
+        byte[] digest = mac.digest(message);
     }
 }
 }}}
