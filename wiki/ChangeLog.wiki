@@ -6,7 +6,7 @@
 
   * issue 5: non-existant alias name should throw an error
   * issue 3: add crypt:secretKey element
-  * added support for mac (message authentication codes)
+  * added support for mac (message authentication codes). See MessageAuthenticationCodeDigests.
 
 == release 1.0.1 - 25 Jan 2012 ==
 
