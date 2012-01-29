@@ -10,6 +10,9 @@
     <crypt:keystore id="keystore" location="classpath:keystore.jks" password="password"/>
     <crypt:privateKey id="privateKey" keystore-ref="keystore" alias="test" password="password"/>
     <crypt:publicKey id="publicKey" keystore-ref="keystore" alias="test"/>
+
+    <crypt:keystore id="keystore2" location="classpath:keystore.jceks" password="changeit" type="JCEKS"/>
+    <crypt:secretKey id="secretKey" keystore-ref="keystore2" alias="hmac" password="changeit"/>
 }}}
 
 = Keys Registry =
