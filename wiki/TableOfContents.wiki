@@ -12,5 +12,5 @@
   * [SymmetricCiphers Symmetric Ciphers]
   * [AsymmetricCiphers Asymmetric Ciphers]
   * [MessageDigests Message Digests]
-  * [MACDigests MAC Digests]
+  * [MessageAuthenticationCodeDigests MAC Digests]
   * [ChangeLog Change Log]
