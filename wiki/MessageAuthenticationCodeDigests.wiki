@@ -33,7 +33,7 @@ public class MyMacDigester {
 }
 }}}
 
-*NB:* that the autowired `Mac` instance is a `com.google.code.springcryptoutils.core.mac.Mac`, not a `javax.security.Mac`.
+*NB:* the autowired `Mac` instance is a `com.google.code.springcryptoutils.core.mac.Mac`, not a `javax.security.Mac`.
 
 = Base64 Encoded MAC Digester =
 
