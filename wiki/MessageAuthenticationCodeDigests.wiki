@@ -24,6 +24,8 @@ import com.google.code.springcryptoutils.core.mac.Mac;
 public class MyMacDigester {
 
     @Autowired
+    // NB: this is a com.google.code.springcryptoutils.core.mac.Mac
+    //     not a javax.security.Mac
     private Mac mac;
 
     public void myBusinessMethod() {
@@ -32,8 +34,6 @@ public class MyMacDigester {
     }
 }
 }}}
-
-*NB:* the autowired `Mac` instance is a `com.google.code.springcryptoutils.core.mac.Mac`, not a `javax.security.Mac`.
 
 = Base64 Encoded MAC Digester =
 
