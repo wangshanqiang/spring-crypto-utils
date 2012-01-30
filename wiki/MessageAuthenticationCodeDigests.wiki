@@ -19,6 +19,8 @@
 An example implementation could be:
 
 {{{
+import com.google.code.springcryptoutils.core.mac.Mac;
+
 public class MyMacDigester {
 
     @Autowired
@@ -30,6 +32,8 @@ public class MyMacDigester {
     }
 }
 }}}
+
+*NB:* that the autowired `Mac` instance is a `com.google.code.springcryptoutils.core.mac.Mac`, not a `javax.security.Mac`.
 
 = Base64 Encoded MAC Digester =
 
