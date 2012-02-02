@@ -2,6 +2,10 @@
 
 = ChangeLog =
 
+== release 1.1.1 - 2 Feb 2012 ==
+
+  * spring crypto utils is in [http://repo1.maven.org/maven2/com/google/code/spring-crypto-utils/spring-crypto-utils/ maven central], so there's no extra repository to setup in the pom. If you had previously setup our custom repository, you can safely remove it from your poms now as all previous versions have also been uploaded to central. There are no source code changes in this release.
+
 == release 1.1.0 - 29 Jan 2012 ==
 
   * issue 5: non-existant alias name should throw an error

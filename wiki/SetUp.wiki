@@ -16,7 +16,7 @@ Add the following dependency block to your pom:
 </dependency>
 }}}
 
-Spring Crypto Utils is in [http://repo1.maven.org/maven2/com/google/code/spring-crypto-utils/spring-crypto-utils/ maven central], so there's no extra repository to setup in the pom. If you had previously setup our custom repository, you can safely remove it from your poms now.
+Spring Crypto Utils is in [http://repo1.maven.org/maven2/com/google/code/spring-crypto-utils/spring-crypto-utils/ maven central], so there's no extra repository to setup in the pom. If you had previously setup our custom repository, you can safely remove it from your poms now as all publicily released versions have been (and will be) uploaded to central.
 
 = Non maven users =
 
