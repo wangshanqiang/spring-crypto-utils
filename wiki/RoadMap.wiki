@@ -17,5 +17,5 @@
 
 = Wish List =
 
-  * configuration with annotations and Spring 3.1 JavaConfig style
+  * configuration with annotations and Spring 3.1 `JavaConfig` style
   * pkcs#7 signatures
