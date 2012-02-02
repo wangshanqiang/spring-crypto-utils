@@ -6,16 +6,6 @@
 
 = Maven users =
 
-Add the following repository block to your pom:
-
-{{{
-<repository>
-    <id>spring-crypto-utils</id>
-    <name>Spring Cryptographic Utilities Maven Repository</name>
-    <url>http://spring-crypto-utils.googlecode.com/svn/repo</url>
-</repository>
-}}}
-
 Add the following dependency block to your pom:
 
 {{{
@@ -25,6 +15,8 @@ Add the following dependency block to your pom:
     <version>1.1.0</version>
 </dependency>
 }}}
+
+Spring Crypto Utils is in [http://repo1.maven.org/maven2/com/google/code/spring-crypto-utils/spring-crypto-utils/ maven central], so there's no extra repository to setup in the pom.
 
 = Non maven users =
 
